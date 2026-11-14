@@ -435,7 +435,7 @@ export default function HeroSection() {
               className="
                 mt-[26px] mb-[22px]
                 max-w-[700px]
-                text-[28px]
+                text-[35px]
                 leading-[1.15]
                 font-semibold
                 sm:text-[60px]

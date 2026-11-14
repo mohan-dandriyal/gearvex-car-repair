@@ -88,7 +88,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col items-start justify-between text-center gap-5 border-t border-white/30 py-[23px] sm:flex-row sm:items-center sm:pt-[26px] sm:pb-[30px] [&>p]:text-xs [&>p]:text-[#ddd] sm:[&>p]:text-[13px]">
+          <div className="flex flex-col sm:items-center  justify-between text-center gap-5 border-t border-white/30 py-[23px] md:flex-row sm:items-center sm:pt-[26px] sm:pb-[30px] [&>p]:text-xs [&>p]:text-[#ddd] sm:[&>p]:text-[13px]">
             <p>
               {"\u00a9"} {copyright.copyYear} {copyright.copyrightText}
             </p>

@@ -11,21 +11,30 @@ import FaqSection from "@/components/sections/FaqSection";
 import Reveal from "@/components/ui/Reveal";
 import { Suspense } from "react";
 
+import Footer from "@/components/common/Footer";
+import Header from "@/components/common/Header";
+
 function HomePageSection() {
   return (
-    <main>
-      <div id="home">
-        <HeroSection />
-      </div>
-      <Reveal><AboutSection /></Reveal>
-      <ServicesSection />
-      <Reveal><WhyChooseSection /></Reveal>
-      <Reveal><Gallery /></Reveal>
+    <>
+      <Header />
 
-      <Reveal><TestimonialsSection /></Reveal>
-      <Reveal><ContactSection /></Reveal>
-      <Reveal ><FaqSection /> </Reveal>
-    </main>
+      <main>
+        <div id="home">
+          <HeroSection />
+        </div>
+        <Reveal><AboutSection /></Reveal>
+        <ServicesSection />
+        <Reveal><WhyChooseSection /></Reveal>
+        <Reveal><Gallery /></Reveal>
+
+        <Reveal><TestimonialsSection /></Reveal>
+        <Reveal><ContactSection /></Reveal>
+        <Reveal ><FaqSection /> </Reveal>
+      </main>
+
+      <Footer />
+    </>
   );
 }
 

@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/common/Header";
-import Footer from "@/components/common/Footer";
 import { landingData } from "@/types/templates.types";
 import { poppins } from "@/fonts/fonts";
 const { meta } = landingData;
@@ -12,8 +10,6 @@ export default function RootLayout({ children }: {
 }) {
     return <html lang="en" className={poppins.variable}>
         <body className={`${poppins.variable}`}>
-            <Header />
             {children}
-            <Footer />
         </body></html>;
 }
