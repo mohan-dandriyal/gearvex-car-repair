@@ -15,7 +15,7 @@ import { landingData } from "@/types/templates.types";
 import "swiper/css";
 import "swiper/css/pagination";
 import { SectionDescription, SectionEyebrow, SectionTitle } from "../ui/layout";
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 
 const subscribe = () => () => { };
 const getClientSnapshot = () => true;

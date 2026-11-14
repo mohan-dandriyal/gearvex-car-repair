@@ -1,7 +1,7 @@
 import { Settings, ShieldCheck, CarFront, Timer } from "lucide-react";
 import { landingData } from "@/types/templates.types";
 import { SectionTitle, SectionDescription, SectionEyebrow } from "../ui/layout";
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 
 const featureIcons = {
   settings: Settings,

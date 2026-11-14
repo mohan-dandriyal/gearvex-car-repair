@@ -9,7 +9,7 @@ import {
 } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 import {
   SectionDescription,
   SectionEyebrow,

@@ -17,7 +17,7 @@ import {
   SectionEyebrow,
   SectionTitle,
 } from "../ui/layout";
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 
 // ========================================
 // ICON MAPPING

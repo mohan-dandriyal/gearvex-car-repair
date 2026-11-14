@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { X, ZoomIn } from "lucide-react";
 import { landingData } from "@/types/templates.types";
 import { SectionDescription, SectionEyebrow, SectionTitle } from "../ui/layout";
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 
 const { items, title, titleHighlight, eyebrow, paragraphs } = landingData?.gallery;
 

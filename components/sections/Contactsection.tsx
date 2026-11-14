@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 
 import { landingData } from "@/types/templates.types";
-import MainContainer from "../common/MainContainer";
+import MainContainer from "@/components/common/MainContainer";
 import { SectionDescription, SectionEyebrow, SectionTitle } from "../ui/layout";
 
 // ========================================
