@@ -23,7 +23,7 @@ export default function ServicesSection() {
           {/* Section Header */}
           <Reveal
             className="
-            mb-8 text-center
+            mb-8 sm:text-center
           "
           >
             {/* Eyebrow */}

@@ -317,8 +317,8 @@ export default function ContactSection() {
 
             {/* Section Heading */}
             <SectionTitle className="my-[15px]">
-              {data.title}
-              <br />
+              {data.title} {" "}
+              <br className="sm:block hidden" />
               <em>{data.titleHighlight}</em>
             </SectionTitle>
 

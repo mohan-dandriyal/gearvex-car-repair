@@ -60,14 +60,15 @@ export const SectionEyebrow = ({
                 />
             )}
 
-            <p className="font-montserrat font-bold tracking-[0.15em] sm:tracking-[0.2em] text-sm sm:text-base text-[#17181c]">
+            <p className={`font-montserrat font-bold tracking-[0.15em] sm:tracking-[0.2em] text-sm sm:text-base text-[#17181c]`}>
                 {children}
             </p>
 
             {
                 (align === "center" || align === "right") && 
-                (<motion.span variants={lineGrow} className={`origin-left ${line}`} />)
+                (<motion.span variants={lineGrow} className={`sm:block hidden origin-left ${line}`} />)
             }
+            <motion.span variants={lineGrow} className={`block sm:hidden origin-left ${line}`} />
         </motion.div>
     );
 };

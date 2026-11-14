@@ -14,7 +14,7 @@ export default function Gallery() {
   return (
     <section id="gallery" className=" scroll-mt-2.5">
       <MainContainer className="">
-        <div className="mb-6 text-center">
+        <div className="mb-6 sm:text-center">
 
           {/* Eyebrow */}
           <SectionEyebrow className="" align={"center"}>

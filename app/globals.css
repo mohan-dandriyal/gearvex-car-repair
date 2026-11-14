@@ -50,7 +50,7 @@
   }
 
   h2 {
-    @apply mt-5 mb-3.5 text-[clamp(34px,4vw,52px)] leading-[1.08];
+    @apply mt-5 mb-3.5 text-[clamp(26px,4vw,52px)] leading-[1.08];
     @apply font-bold;
   }
 

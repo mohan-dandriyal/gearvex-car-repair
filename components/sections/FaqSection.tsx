@@ -71,13 +71,13 @@ export default function FaqSection() {
             </SectionEyebrow>
 
             <SectionTitle className="">
-              {title}
-              <br />
+              {title} {" "}
+              <br className="sm:block hidden" />
               <em>{titleHighlight}</em>
             </SectionTitle>
 
             {paragraph && (
-              <SectionDescription className="max-w-[340px] text-[15px] sm:text-[17px]">
+              <SectionDescription className="sm:max-w-[340px] text-[15px] sm:text-[17px]">
                 {paragraph}
               </SectionDescription>
             )}
