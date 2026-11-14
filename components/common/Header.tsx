@@ -128,7 +128,7 @@ export default function Header() {
             id="main-navigation"
             aria-label="Main navigation"
             data-open={open}
-            className="header-navigation absolute inset-x-0 top-full z-10 rounded-b-2xl bg-white shadow-[0_16px_30px_#17181c14] xl:static xl:flex xl:flex-1 xl:items-center xl:justify-center xl:gap-3.25 xl:rounded-none xl:shadow-none 2xl:gap-8"
+            className="header-navigation absolute inset-x-0 top-full z-10 rounded-b-2xl bg-white shadow-[0_16px_30px_#17181c14] xl:static xl:flex xl:flex-1 xl:items-center xl:justify-center xl:gap-5 xl:rounded-none xl:shadow-none 2xl:gap-8"
           >
             <div className="min-h-0 overflow-hidden xl:contents">
               <div className="flex max-h-[calc(100dvh-var(--header-height,102px)-16px)] flex-col gap-1 overflow-y-auto border-t border-[#eee] px-5 py-4 sm:px-8 xl:contents">

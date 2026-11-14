@@ -329,12 +329,12 @@ export default function ContactSection() {
 
             {/* Dynamic Steps */}
             <div className="mt-5">
-              {data.steps.map((step) => {
-                const Icon = getIcon(step.icon);
+              {data.info.map((contact, index) => {
+                const Icon = getIcon(contact?.icon);
 
                 return (
                   <div
-                    key={step.id}
+                    key={index + 1}
                     className="
                       group flex items-center
                       gap-[15px]
@@ -350,7 +350,7 @@ export default function ContactSection() {
                         stroke-[1.4] text-accent
                         transition-transform duration-300
                         group-hover:scale-110
-                        sm:size-[47px]
+                        sm:size-[38px]
                       "
                     />
 
@@ -361,20 +361,29 @@ export default function ContactSection() {
                         min-[1191px]:pl-[22px]
                       "
                     >
-                      <h3
-                        className="
-                          text-[19px] font-bold
-                          tracking-[-0.6px]
-                          sm:text-[17px]
-                          min-[1191px]:text-xl
-                        "
-                      >
-                        {step.title}
-                      </h3>
 
                       <p className="mt-1 text-[13px] leading-[1.4]">
-                        {step.description}
+                        {contact.label}
                       </p>
+
+                      <h3
+                        className="
+                          text-[19px] font-semibold
+                          tracking-[-0.6px]
+                          sm:text-[16px] mt-1
+                        "
+                      >
+                        {contact.href ? (
+                          <a
+                            href={contact.href}
+                            className="transition-colors hover:text-accent"
+                          >
+                            {contact.lines}
+                          </a>
+                        ) : (
+                          contact.lines
+                        )}
+                      </h3>
                     </div>
                   </div>
                 );

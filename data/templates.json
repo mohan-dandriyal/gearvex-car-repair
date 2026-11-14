@@ -170,6 +170,10 @@
                   {
                     "label": "FAQ",
                     "href": "#faq"
+                  },
+                  {
+                    "label": "Contact Us",
+                    "href": "#contact"
                   }
                 ]
               },
@@ -287,7 +291,7 @@
               "eyebrow": "OUR SERVICES",
               "title": " Quality Automotive",
               "titleHighlight": "Care",
-              "paragraphs": "",
+              "paragraphs": "Reliable, efficient, and professional services to keep your vehicle in peak condition.",
               "items": [
                 {
                   "title": "Engine Diagnostics",
@@ -341,7 +345,7 @@
               "eyebrow": "WHY CHOOSE US",
               "title": "Drive With",
               "titleHighlight": "Confidence",
-              "paragraphs": "",
+              "paragraphs": "We deliver reliable, high-quality automotive care with a focus on performance, safety, and long-term value.",
               "cta": {
                 "label": "Book a Service",
                 "href": "#contact"
@@ -521,7 +525,7 @@
               "eyebrow": "OUR GALLERY",
               "title": " Inside Our ",
               "titleHighlight": "Service Center",
-              "paragraphs": "",
+              "paragraphs": "A glimpse of our work, facility, and the care we give to every vehicle.",
               "items": [
                 {
                   "image": "/other/gal-1.jpg",
@@ -596,10 +600,10 @@
           "variants": {
             "GearvexAutomotiveServiceContact2": {
               "id": "contact",
-              "eyebrow": "BOOK A SERVICE",
-              "title": "Schedule Your",
-              "titleHighlight": "Car Service",
-              "description": "Easy, quick, and hassle-free service booking for your vehicle.",
+              "eyebrow": "Contact US",
+              "title": "Contact Our  ",
+              "titleHighlight": "Expert Team",
+              "description": "Have questions about your vehicle or need professional automotive assistance? Get in touch with our team for reliable support, expert guidance, and quality service.",
               "steps": [
                 {
                   "id": 1,
@@ -646,10 +650,9 @@
                 {
                   "icon": "pin",
                   "label": "Visit Our Workshop",
-                  "lines": [
-                    "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210"
-                  ],
-                  "href": "#contact"
+                  "lines": "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210",
+                  "type": "location",
+                  "href": "#"
                 }
               ],
               "form": {
