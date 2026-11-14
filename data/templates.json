@@ -1,0 +1,822 @@
+{
+  "common": {
+    "globalUI": {
+      "loadingText": "Loading GEARVEX...",
+      "notFoundText": "Page Not Found"
+    },
+    "Footer": {
+      "brand": {
+        "href": "#home",
+        "logo": "/main logo/footer-logo.png",
+        "alt": "AUTOMOTIVE SERVICE",
+        "name": "GEARVEX",
+        "by": "AUTOMOTIVE SERVICE",
+        "description": "Reliable car care and professional automotive services to keep your vehicle running at its best."
+      },
+      "quickLinks": {
+        "title": "Quick Links",
+        "items": [
+          {
+            "label": "Home",
+            "href": "#home"
+          },
+          {
+            "label": "About Us",
+            "href": "#about"
+          },
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "Why Choose Us",
+            "href": "#why-choose-us"
+          },
+          {
+            "label": "Gallery",
+            "href": "#gallery"
+          },
+          {
+            "label": "Contact Us",
+            "href": "#contact"
+          }
+        ]
+      },
+      "social": {
+        "title": "Follow Us",
+        "items": [
+          {
+            "label": "Facebook",
+            "href": "https://www.facebook.com/"
+          },
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/"
+          },
+          {
+            "label": "YouTube",
+            "href": "https://www.youtube.com/"
+          }
+        ]
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "items": [
+          {
+            "icon": "phone",
+            "lines": [
+              "++1 00000 00000"
+            ],
+            "href": "tel:+919876543210"
+          },
+          {
+            "icon": "mail",
+            "lines": [
+              "info@xyz.com"
+            ],
+            "href": "mailto:info@xyz.com"
+          },
+          {
+            "icon": "pin",
+            "lines": [
+              "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210"
+            ],
+            "href": "#contact"
+          }
+        ]
+      },
+      "copyright": {
+        "copyrightText": "GEARVEX Automotive Service. All Rights Reserved. Powered by Lestow.",
+        "copyYear": "2026"
+      }
+    }
+  },
+  "categories": {
+    "GearvexAutomotiveService": {
+      "meta": {
+        "title": {
+          "default": "GEARVEX | Professional Car Repair & Automotive Services",
+          "template": "%s | GEARVEX"
+        },
+        "description": "GEARVEX offers professional automotive repair, engine diagnostics, brake repair, engine cleaning, AC service, suspension repair and battery service.",
+        "keywords": [
+          "GEARVEX",
+          "Car Repair",
+          "Automotive Service",
+          "Engine Diagnostics",
+          "Brake Repair",
+          "Engine Cleaning",
+          "Car AC Repair",
+          "Suspension Repair",
+          "Battery Service",
+          "Auto Workshop"
+        ],
+        "authors": [
+          {
+            "name": "GEARVEX"
+          }
+        ],
+        "creator": "GEARVEX",
+        "publisher": "GEARVEX"
+      },
+      "sections": {
+        "Header": {
+          "variants": {
+            "GearvexAutomotiveServiceHeader2": {
+              "logo": {
+                "linkTo": "#home",
+                "src": "/main logo/header-logo.png",
+                "alt": "GEARVEX Automotive Service",
+                "width": 180,
+                "height": 54,
+                "ariaLabel": "Go to homepage"
+              },
+              "brand": {
+                "name": "GEARVEX",
+                "tagline": "AUTOMOTIVE SERVICE"
+              },
+              "navigation": {
+                "ariaLabel": "Main navigation",
+                "mobileDrawerTitle": "MENU DIRECTORY",
+                "navItems": [
+                  {
+                    "label": "Home",
+                    "href": "#home"
+                  },
+                  {
+                    "label": "About Us",
+                    "href": "#about"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "#services"
+                  },
+                  {
+                    "label": "Why Choose Us",
+                    "href": "#why-choose-us"
+                  },
+                  {
+                    "label": "Gallery",
+                    "href": "#gallery"
+                  },
+                  {
+                    "label": "Testimonials",
+                    "href": "#testimonials"
+                  },
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  }
+                ]
+              },
+              "cta": {
+                "enabled": true,
+                "btnText": "Book a Service",
+                "btnLink": "#contact",
+                "icon": "calendar"
+              },
+              "mobile": {
+                "menuLabel": "Open navigation menu",
+                "closeLabel": "Close navigation menu",
+                "ctaText": "Book a Service"
+              },
+              "theme": {
+                "background": "#FFFFFF",
+                "surface": "#FFFFFF",
+                "text": "#202124",
+                "muted": "#626262",
+                "accent": "#B94718",
+                "secondaryAccent": "#171717",
+                "border": "rgba(185,71,24,0.12)",
+                "scrolledBackground": "#FFFFFF"
+              },
+              "settings": {
+                "sticky": true,
+                "showAnnouncement": false,
+                "scrollThreshold": 40,
+                "showActiveLink": true,
+                "smoothScroll": true
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "GearvexAutomotiveServiceHero2": {
+              "brand": "GEARVEX",
+              "slides": [
+                {
+                  "tagline": "PROFESSIONAL AUTO SERVICE",
+                  "first": "Modern Workshop",
+                  "second": "For",
+                  "accent": "Car Repair",
+                  "image": "/other/slide-1.jpg",
+                  "description": " We believe in providing top quality workmanship and are so confident in our level of service that we back it up with a good quality.",
+                  "cta": {
+                    "label": "VIEW ALL SERVICES",
+                    "href": "#services"
+                  }
+                },
+                {
+                  "tagline": "PROFESSIONAL AUTO SERVICE",
+                  "first": "Expert Care",
+                  "second": "For",
+                  "accent": "Every Journey",
+                  "image": "/other/engine-diagnostics.webp",
+                  "description": " We believe in providing top quality workmanship and are so confident in our level of service that we back it up with a good quality.",
+                  "cta": {
+                    "label": "VIEW ALL SERVICES",
+                    "href": "#services"
+                  }
+                },
+                {
+                  "tagline": "PROFESSIONAL AUTO SERVICE",
+                  "first": "Skilled Technicians",
+                  "second": "Quality",
+                  "accent": "You Can Trust",
+                  "image": "/other/engine-cleaning.webp",
+                  "description": " We believe in providing top quality workmanship and are so confident in our level of service that we back it up with a good quality.",
+                  "cta": {
+                    "label": "VIEW ALL SERVICES",
+                    "href": "#services"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "GearvexAutomotiveServiceAboutUs2": {
+              "eyebrow": "ABOUT US",
+              "title": "Your Trusted Partner",
+              "titleHighlight": "In Car Care",
+              "features": [
+                {
+                  "icon": "settings",
+                  "label": "Skilled Technicians"
+                },
+                {
+                  "icon": "shield-check",
+                  "label": "Quality Service"
+                },
+                {
+                  "icon": "car-front",
+                  "label": "Affordable & Transparent"
+                },
+                {
+                  "icon": "timer",
+                  "label": "On-Time Service"
+                }
+              ],
+              "subtitle": "Skilled technicians, quality service, affordable pricing and on-time delivery.",
+              "paragraphs": [
+                "At GEARVEX, we are passionate about keeping your vehicle in peak condition. With a team of skilled technicians, advanced equipment, and a commitment to quality, we deliver reliable and efficient automotive services you can count on.",
+                "From routine maintenance to complex repairs, our workshop provides transparent advice, professional workmanship and dependable car care."
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "GearvexAutomotiveServiceServices2": {
+              "eyebrow": "OUR SERVICES",
+              "title": " Quality Automotive",
+              "titleHighlight": "Care",
+              "paragraphs": "",
+              "items": [
+                {
+                  "title": "Engine Diagnostics",
+                  "icon": "wrench",
+                  "image": "/other/service-1.jpg",
+                  "alt": "Technician inspecting a car engine",
+                  "description": "Advanced scanning and inspection to identify and fix issues quickly."
+                },
+                {
+                  "title": "Brake Repair",
+                  "icon": "disc",
+                  "image": "/other/service-2.jpg",
+                  "alt": "Brake disc and caliper",
+                  "description": "Complete brake inspection, repair, and replacement for safer driving."
+                },
+                {
+                  "title": "Engine Cleaning",
+                  "icon": "droplets",
+                  "image": "/other/service-3.jpg",
+                  "alt": "Engine cleaning service",
+                  "description": "Thorough engine cleaning to improve performance and extend engine life."
+                },
+                {
+                  "title": "AC Repair & Service",
+                  "icon": "wind",
+                  "image": "/other/service-4.jpg",
+                  "alt": "Vehicle air conditioning controls",
+                  "description": "Keep your cabin cool and comfortable in every season."
+                },
+                {
+                  "title": "Suspension Repair",
+                  "icon": "wrench",
+                  "image": "/other/service-5.jpg",
+                  "alt": "Car suspension spring and shock absorber",
+                  "description": "Restore comfort, stability, and better handling on the road."
+                },
+                {
+                  "title": "Battery Service",
+                  "icon": "battery",
+                  "image": "/other/service-6.jpg",
+                  "alt": "Automotive battery maintenance",
+                  "description": "Testing, replacement, and electrical support for reliable performance."
+                }
+              ]
+            }
+          }
+        },
+        "WhyChoose": {
+          "variants": {
+            "GearvexAutomotiveServiceWhyChoose2": {
+              "eyebrow": "WHY CHOOSE US",
+              "title": "Drive With",
+              "titleHighlight": "Confidence",
+              "paragraphs": "",
+              "cta": {
+                "label": "Book a Service",
+                "href": "#contact"
+              },
+              "image": {
+                "src": "/other/whyChoose.jpg",
+                "alt": "Expert mechanic inspecting a vehicle in our workshop"
+              },
+              "reasons": [
+                {
+                  "id": "certified-expert-mechanics",
+                  "icon": "hard-hat",
+                  "title": "Certified Expert Mechanics",
+                  "description": "Skilled and experienced professionals you can trust."
+                },
+                {
+                  "id": "fast-and-quality-service",
+                  "icon": "wrench",
+                  "title": "Fast And Quality Service",
+                  "description": "Quick, efficient and reliable service every time."
+                },
+                {
+                  "id": "best-prices-in-town",
+                  "icon": "tag",
+                  "title": "Best Prices In Town",
+                  "description": "Transparent pricing with great value for money."
+                },
+                {
+                  "id": "awarded-workshop",
+                  "icon": "trophy",
+                  "title": "Awarded Workshop",
+                  "description": "Recognized for quality service and customer satisfaction."
+                }
+              ],
+              "additionalServices": {
+                "title": "ADDITIONAL SERVICES",
+                "items": [
+                  "General Auto Repair & Maintenance",
+                  "Transmission Repair & Replacement",
+                  "Tire Repair and Replacement",
+                  "State Emissions Inspection",
+                  "Brake Job / Brake Services",
+                  "Electrical Diagnostics",
+                  "Fuel System Repairs",
+                  "Starting and Charging Repair",
+                  "Steering and Suspension Work",
+                  "Emission Repair Facility",
+                  "Wheel Alignment",
+                  "Computer Diagnostic Testing"
+                ]
+              },
+              "tabs": [
+                {
+                  "id": "certified-expert-mechanics",
+                  "label": "Certified Expert Mechanics",
+                  "title": "Certified Expert Mechanics",
+                  "description": "Skilled and experienced professionals you can trust.",
+                  "image": "/other/certified-mechanics.webp",
+                  "alt": "Certified Expert Mechanics",
+                  "stats": [
+                    {
+                      "icon": "bed",
+                      "value": "100%",
+                      "label": "Quality"
+                    },
+                    {
+                      "icon": "bath",
+                      "value": "100%",
+                      "label": "Reliability"
+                    },
+                    {
+                      "icon": "balcony",
+                      "value": "100%",
+                      "label": "Care"
+                    }
+                  ],
+                  "areas": [
+                    {
+                      "label": "Service",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Support",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Commitment",
+                      "value": "Professional"
+                    }
+                  ]
+                },
+                {
+                  "id": "fast-and-quality-service",
+                  "label": "Fast And Quality Service",
+                  "title": "Fast And Quality Service",
+                  "description": "Quick, efficient and reliable service every time.",
+                  "image": "/other/quality-service.webp",
+                  "alt": "Fast And Quality Service",
+                  "stats": [
+                    {
+                      "icon": "bed",
+                      "value": "100%",
+                      "label": "Quality"
+                    },
+                    {
+                      "icon": "bath",
+                      "value": "100%",
+                      "label": "Reliability"
+                    },
+                    {
+                      "icon": "balcony",
+                      "value": "100%",
+                      "label": "Care"
+                    }
+                  ],
+                  "areas": [
+                    {
+                      "label": "Service",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Support",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Commitment",
+                      "value": "Professional"
+                    }
+                  ]
+                },
+                {
+                  "id": "best-prices-in-town",
+                  "label": "Best Prices In Town",
+                  "title": "Best Prices In Town",
+                  "description": "Transparent pricing with great value for money.",
+                  "image": "/other/affordable-service.webp",
+                  "alt": "Best Prices In Town",
+                  "stats": [
+                    {
+                      "icon": "bed",
+                      "value": "100%",
+                      "label": "Quality"
+                    },
+                    {
+                      "icon": "bath",
+                      "value": "100%",
+                      "label": "Reliability"
+                    },
+                    {
+                      "icon": "balcony",
+                      "value": "100%",
+                      "label": "Care"
+                    }
+                  ],
+                  "areas": [
+                    {
+                      "label": "Service",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Support",
+                      "value": "Professional"
+                    },
+                    {
+                      "label": "Commitment",
+                      "value": "Professional"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "GearvexAutomotiveServiceGallery2": {
+              "eyebrow": "OUR GALLERY",
+              "title": " Inside Our ",
+              "titleHighlight": "Service Center",
+              "paragraphs": "",
+              "items": [
+                {
+                  "image": "/other/gal-1.jpg",
+                  "alt": "Technician diagnosing a vehicle engine"
+                },
+                {
+                  "image": "/other/gal-2.jpg",
+                  "alt": "Mechanic working beneath a car"
+                },
+                {
+                  "image": "/other/gal-3.jpg",
+                  "alt": "Performance brake repair"
+                },
+                {
+                  "image": "/other/service-4.jpg",
+                  "alt": "Car AC controls"
+                },
+                {
+                  "image": "/other/gal-5.jpg",
+                  "alt": "Technician servicing a car wheel"
+                },
+                {
+                  "image": "/other/gal-6.jpg",
+                  "alt": "Computerized car diagnostics"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "GearvexAutomotiveServiceTestimonials2": {
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "title": "What Our Customers",
+              "titleHighlight": "Say",
+              "paragraph": "Real experiences from our valued clients who trust GEARVEX for their automotive care.",
+              "autoplayMs": 6000,
+              "items": [
+                {
+                  "name": "Rohit Verma",
+                  "role": "Car Owner",
+                  "rating": 5,
+                  "avatar": "/other/profile-2.jpg",
+                  "quote": "Excellent service and professional team. They diagnosed the issue quickly and fixed my car perfectly. Highly recommended!"
+                },
+                {
+                  "name": "Anjali Sharma",
+                  "role": "Car Owner",
+                  "rating": 5,
+                  "avatar": "/other/profile-1.jpg",
+                  "quote": "Very reliable and transparent service. The staff is knowledgeable, friendly, and the pricing is fair. My go-to workshop for all car needs!"
+                },
+                {
+                  "name": "Karan Mehta",
+                  "role": "Car Owner",
+                  "rating": 5,
+                  "avatar": "/other/profile-5.jpg",
+                  "quote": "Great experience from start to finish. Quality work, on-time delivery, and my car is running like new. Thank you GEARVEX!"
+                },
+                {
+                  "name": "Priya Kapoor",
+                  "role": "Car Owner",
+                  "rating": 5,
+                  "avatar": "/other/profile-4.jpg",
+                  "quote": "Friendly technicians, clear communication and excellent car care. I am very happy with the service."
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "GearvexAutomotiveServiceContact2": {
+              "id": "contact",
+              "eyebrow": "BOOK A SERVICE",
+              "title": "Schedule Your",
+              "titleHighlight": "Car Service",
+              "description": "Easy, quick, and hassle-free service booking for your vehicle.",
+              "steps": [
+                {
+                  "id": 1,
+                  "icon": "calendar",
+                  "title": "Choose Service",
+                  "description": "Select the service you need."
+                },
+                {
+                  "id": 2,
+                  "icon": "clock",
+                  "title": "Pick Date & Time",
+                  "description": "Book a slot that works for you."
+                },
+                {
+                  "id": 3,
+                  "icon": "hard-hat",
+                  "title": "Expert Service",
+                  "description": "Get your car serviced by professionals."
+                },
+                {
+                  "id": 4,
+                  "icon": "car",
+                  "title": "Drive with Confidence",
+                  "description": "Enjoy a safe and well-maintained vehicle."
+                }
+              ],
+              "info": [
+                {
+                  "icon": "phone",
+                  "label": "Call Our Workshop",
+                  "lines": [
+                    "+1 00000 00000"
+                  ],
+                  "href": "tel:+10000000000"
+                },
+                {
+                  "icon": "mail",
+                  "label": "Email Us",
+                  "lines": [
+                    "info@xyz.com"
+                  ],
+                  "href": "mailto:info@xyz.com"
+                },
+                {
+                  "icon": "pin",
+                  "label": "Visit Our Workshop",
+                  "lines": [
+                    "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210"
+                  ],
+                  "href": "#contact"
+                }
+              ],
+              "form": {
+                "title": "Book a Service Appointment",
+                "submitLabel": "BOOK NOW",
+                "submitIcon": "arrow-right",
+                "submissionMode": "mailto",
+                "endpoint": "/api/enquiry",
+                "emailTo": "info@xyz.com",
+                "emailSubject": "Service appointment request",
+                "successMessage": "Your email app will open with your appointment details. Send the email to request your booking; our team will confirm availability.",
+                "errorMessage": "Something went wrong. Please try again.",
+                "footerText": "Request by email. Your appointment is confirmed by our team.",
+                "serviceQueryParam": "service",
+                "fields": [
+                  {
+                    "name": "name",
+                    "type": "text",
+                    "placeholder": "Your Name",
+                    "icon": "user",
+                    "required": true,
+                    "autoComplete": "name"
+                  },
+                  {
+                    "name": "mobile",
+                    "type": "tel",
+                    "placeholder": "Phone Number",
+                    "icon": "phone",
+                    "required": true,
+                    "autoComplete": "tel",
+                    "pattern": "^[6-9][0-9]{9}$",
+                    "patternMessage": "Enter a valid 10-digit mobile number."
+                  },
+                  {
+                    "name": "email",
+                    "type": "email",
+                    "placeholder": "Email Address",
+                    "icon": "mail",
+                    "required": true,
+                    "autoComplete": "email",
+                    "pattern": "^\\S+@\\S+\\.\\S+$",
+                    "patternMessage": "Enter a valid email address."
+                  },
+                  {
+                    "name": "vehicle",
+                    "type": "text",
+                    "placeholder": "Vehicle Model",
+                    "icon": "car",
+                    "required": true,
+                    "autoComplete": "off"
+                  },
+                  {
+                    "name": "config",
+                    "type": "select",
+                    "placeholder": "Select Service",
+                    "icon": "settings",
+                    "required": true,
+                    "full": true,
+                    "options": [
+                      "Engine Diagnostics",
+                      "Brake Repair",
+                      "Engine Cleaning",
+                      "AC Repair & Service",
+                      "Suspension Repair",
+                      "Battery Service"
+                    ]
+                  },
+                  {
+                    "name": "preferredDate",
+                    "type": "date",
+                    "placeholder": "Preferred Date",
+                    "icon": "calendar",
+                    "required": true,
+                    "minToday": true
+                  },
+                  {
+                    "name": "preferredTime",
+                    "type": "time",
+                    "placeholder": "Preferred Time",
+                    "icon": "clock",
+                    "required": true,
+                    "min": "09:00",
+                    "max": "18:00"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "FAQs": {
+          "variants": {
+            "GearvexAutomotiveServiceFAQs2": {
+              "eyebrow": "CLIENT TESTIMONIALS",
+              "title": "Frequently Asked",
+              "titleHighlight": "Questions",
+              "paragraph": "Find quick answers to common questions about our services, bookings, and vehicle care.",
+              "sectionBgIMage": "/other/faq-bg.png",
+              "questions": [
+                {
+                  "q": "What types of vehicles do you service?",
+                  "a": "We service all major makes and models, including sedans, SUVs, hatchbacks, and light commercial vehicles."
+                },
+                {
+                  "q": "Do I need an appointment for service?",
+                  "a": "We recommend booking ahead so we can reserve time for your vehicle. Contact our workshop to check availability for same-day visits."
+                },
+                {
+                  "q": "How long does a typical service take?",
+                  "a": "The time depends on your vehicle and the work required. Our team will give you an estimated completion time before starting."
+                },
+                {
+                  "q": "Do you offer a warranty on your services?",
+                  "a": "Please ask our team about the warranty available for your specific repair and replacement parts before approving the work."
+                },
+                {
+                  "q": "Can I get an estimate before the service?",
+                  "a": "Yes. Our team can assess your vehicle and provide an estimate for your approval before carrying out repairs."
+                }
+              ]
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Header": "GearvexAutomotiveServiceHeader2",
+          "Footer": "GearvexAutomotiveServiceFooter2"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "GearvexAutomotiveServiceHero2"
+              },
+              {
+                "key": "AboutUs",
+                "component": "GearvexAutomotiveServiceAboutUs2"
+              },
+              {
+                "key": "Services",
+                "component": "GearvexAutomotiveServiceServices2"
+              },
+              {
+                "key": "Gallery",
+                "component": "GearvexAutomotiveServiceGallery2"
+              },
+              {
+                "key": "WhyChoose",
+                "component": "GearvexAutomotiveServiceWhyChoose2"
+              },
+              {
+                "key": "Testimonials",
+                "component": "GearvexAutomotiveServiceTestimonials2"
+              },
+              {
+                "key": "Contact",
+                "component": "GearvexAutomotiveServiceContact2"
+              },
+              {
+                "key": "FAQs",
+                "component": "GearvexAutomotiveServiceFAQs2"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
