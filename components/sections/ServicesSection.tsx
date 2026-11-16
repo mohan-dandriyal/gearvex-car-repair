@@ -160,9 +160,7 @@ export default function ServicesSection() {
 
                     {/* Book Service Button */}
                     <a
-                      href={`?service=${encodeURIComponent(
-                        item.title
-                      )}#contact`}
+                      href={`#contact`}
                       aria-label={`Book ${item.title}`}
                       className="
                       float-right ml-1.5 rounded

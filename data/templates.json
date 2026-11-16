@@ -85,7 +85,7 @@
             "lines": [
               "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210"
             ],
-            "href": "#contact"
+            "href": ""
           }
         ]
       },
@@ -652,7 +652,7 @@
                   "label": "Visit Our Workshop",
                   "lines": "3170 Rosewood Lane Unit 200, Beverly Hills, CA 90210",
                   "type": "location",
-                  "href": "#"
+                  "href": ""
                 }
               ],
               "form": {

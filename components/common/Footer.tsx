@@ -75,14 +75,19 @@ export default function Footer() {
               {contact.items.map((item) => {
                 const Icon = icons[item.icon as keyof typeof icons];
                 return (
-                  <a
-                    className="mb-[22px] flex items-start gap-[17px] text-[15px] leading-normal text-[#e3e3e3] [&>svg]:shrink-0 [&>svg]:text-[#ed751b]"
-                    key={item.icon}
-                    href={item.href}
-                  >
-                    <Icon size={23} />
-                    <span>{item.lines.join(", ")}</span>
-                  </a>
+                  item.href ?
+                    <a
+                      className="mb-[22px] flex items-start gap-[17px] text-[15px] leading-normal text-[#e3e3e3] [&>svg]:shrink-0 [&>svg]:text-[#ed751b]"
+                      key={item.icon}
+                      href={item.href}
+                    >
+                      <Icon size={23} />
+                      <span>{item.lines.join(", ")}</span>
+                    </a> :
+                    <p className="flex items-start gap-[17px] text-[15px] leading-normal text-[#e3e3e3] :shrink-0 [&>svg]:text-[#ed751b]">
+                      <Icon size={28} />
+                      <span>{item.lines.join(", ")}</span>
+                    </p>
                 );
               })}
             </div>
