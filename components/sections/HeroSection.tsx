@@ -474,7 +474,7 @@ export default function HeroSection() {
             </motion.p>
 
             {/* CTA BUTTON */}
-            <motion.div
+            {/* <motion.div
               initial={{
                 opacity: 0,
                 y: reduceMotion ? 0 : 20,
@@ -513,7 +513,7 @@ export default function HeroSection() {
                 {slide.cta.label}
                 <ArrowRight size={19} />
               </a>
-            </motion.div>
+            </motion.div> */}
           </div>
         </motion.div>
       </AnimatePresence>
@@ -593,48 +593,7 @@ export default function HeroSection() {
           >
             <ChevronRight className="size-[18px] sm:size-6" />
           </button>
-
-          {/* PLAY / PAUSE */}
-          <button
-            type="button"
-            disabled={Boolean(reduceMotion)}
-            aria-label={
-              paused
-                ? "Resume banner slideshow"
-                : "Pause banner slideshow"
-            }
-            aria-pressed={paused}
-            onClick={() => setPaused((prev) => !prev)}
-            className="
-              absolute right-5 bottom-3.5
-              z-3 inline-flex
-              items-center gap-[7px]
-              rounded-[20px]
-              border border-white/30
-              bg-[#15171985]
-              px-[11px] py-[7px]
-              text-[11px] text-white
-              transition-colors
-              hover:bg-accent
-              disabled:cursor-default
-              sm:right-8
-              sm:bottom-5
-            "
-          >
-            {paused || reduceMotion ? (
-              <Play size={15} />
-            ) : (
-              <Pause size={15} />
-            )}
-
-            <span>
-              {reduceMotion
-                ? "Autoplay off"
-                : paused
-                  ? "Play"
-                  : "Pause"}
-            </span>
-          </button>
+          
         </>
       )}
     </section>
