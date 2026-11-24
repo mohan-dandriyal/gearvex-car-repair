@@ -58,6 +58,19 @@ const iconMap: Record<string, LucideIcon> = {
 const getIcon = (name: string): LucideIcon =>
   iconMap[name] ?? Settings;
 
+const SubmitIcon = getIcon(contactData.form.submitIcon);
+
+function setMinimumDate(input: HTMLInputElement | null) {
+  if (!input) return;
+
+  const now = new Date();
+  input.min = [
+    now.getFullYear(),
+    String(now.getMonth() + 1).padStart(2, "0"),
+    String(now.getDate()).padStart(2, "0"),
+  ].join("-");
+}
+
 // ========================================
 // FIELD TYPES
 // ========================================
@@ -89,23 +102,12 @@ export default function ContactSection() {
   const serviceRef = useRef<HTMLSelectElement>(null);
 
   const [status, setStatus] = useState("");
-  const [today, setToday] = useState("");
 
   // ========================================
   // INITIALIZE FORM
   // ========================================
 
   useEffect(() => {
-    const now = new Date();
-
-    const formattedDate = [
-      now.getFullYear(),
-      String(now.getMonth() + 1).padStart(2, "0"),
-      String(now.getDate()).padStart(2, "0"),
-    ].join("-");
-
-    setToday(formattedDate);
-
     const params = new URLSearchParams(
       window.location.search
     );
@@ -270,11 +272,8 @@ export default function ContactSection() {
             pattern={field.pattern}
             title={field.patternMessage}
             autoComplete={field.autoComplete}
-            min={
-              field.minToday
-                ? today || undefined
-                : field.min
-            }
+            ref={field.minToday ? setMinimumDate : undefined}
+            min={field.minToday ? undefined : field.min}
             max={field.max}
             className={inputClass}
           />
@@ -282,8 +281,6 @@ export default function ContactSection() {
       </label>
     );
   }
-
-  const SubmitIcon = getIcon(form.submitIcon);
 
   // ========================================
   // JSX
